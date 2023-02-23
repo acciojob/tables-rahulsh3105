@@ -8,44 +8,81 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="container">
-  <table class="table table-bordered">
-    <thead>
+	<div class="table-responsive">
+  <table class="table table-hover">
+    <caption>Movie Sales Table</caption>
+    <thead class="table-dark">
       <tr>
-        <th>#</th>
-        <th>From</th>
-        <th>To</th>
-        <th>Amount($)</th>
+        <th>Total</th>
+        <th></th>
+        <th></th>
+        <th>Week 1</th>
+        <th>Week 2</th>
+        <th>Week 3</th>
+        <th>Week 4</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>1000</td>
+        <th rowspan="3" class="font-monospace fw-bold text-end">Total</th>
+        <td>The Godfather</td>
+        <td>1972</td>
+        <td>$10,000</td>
+        <td>$8,000</td>
+        <td>$6,000</td>
+        <td>$4,000</td>
       </tr>
       <tr>
-        <td>2</td>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>1500</td>
+        <td>The Dark Knight</td>
+        <td>2008</td>
+        <td>$15,000</td>
+        <td>$13,000</td>
+        <td>$11,000</td>
+        <td>$9,000</td>
       </tr>
       <tr>
-        <td>3</td>
-        <td>Jack</td>
-        <td>John</td>
-        <td>2000</td>
+        <td>The Shawshank Redemption</td>
+        <td>1994</td>
+        <td>$20,000</td>
+        <td>$18,000</td>
+        <td>$16,000</td>
+        <td>$14,000</td>
       </tr>
-		<tfoot>
-		<tr>
-        <td></td>
-        <td></td>
-        <td class="total">Total</td>
-        <td style="font-weight: bold;">4000</td>
-	    </tr>           
-		</tfoot>
+      <tr>
+        <th rowspan="3" class="font-monospace fw-bold text-end">Week</th>
+        <td>Toy Story</td>
+        <td>1995</td>
+        <td>$2,000</td>
+        <td>$3,000</td>
+        <td>$5,000</td>
+        <td>$7,000</td>
+      </tr>
+      <tr>
+        <td>Jurassic Park</td>
+        <td>1993</td>
+        <td>$4,000</td>
+        <td>$5,000</td>
+        <td>$7,000</td>
+        <td>$9,000</td>
+      </tr>
+      <tr>
+        <td>Avengers: Endgame</td>
+        <td>2019</td>
+        <td>$6,000</td>
+        <td>$7,000</td>
+        <td>$9,000</td>
+        <td>$11,000</td>
+      </tr>
     </tbody>
+    <tfoot class="table-light">
+      <tr>
+        <td colspan="3"></td>
+        <td>$57,000</td>
+        <td>$52,000</td>
+        <td>$47,000</td>
+        <td>$42,000</td>
+      </tr>
+    </tfoot>
   </table>
 </div>
 
